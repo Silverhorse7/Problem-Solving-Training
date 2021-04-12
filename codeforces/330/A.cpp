@@ -46,6 +46,40 @@
 	//	A		Hello
 	//	B		Codeforces
 	// B.FIND(A[I])==FALSE ? -->A.ERASE(A[I]); :
+	string lol="";
+	bool isPalindrome(string s)
+	{
+		string lol = "";
+		for(int i = s.size()-1 ; i >=0;i--)
+		{
+			lol+=s[i];
+		}
+		if(lol==s)
+		{
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	inline bool IsPowerOfTwo(ll n)
+	{
+		if (n <= 0)
+			return false;
+		return (ceil(log2(n)) == floor(log2(n)));
+	}
+const int N = 2e7;
+int primes[N + 1];
+
+void sieve() {
+	primes[1] = 1;
+	for (int i = 2; i <= N; ++i) {
+		if (primes[i]) continue;
+		for (int j = i + i; j <= N; j += i) {
+			primes[j] = 1;
+		}
+	}
+}
 	//Comment Code Block Ctrl + K + C / Ctrl + K + U-->remove comment
 	//Comment Code Block Ctrl + K + C / Ctrl + K + U-->remove comment
 	void it_is_me_dio_hahahahahaha()
@@ -80,6 +114,7 @@
     }
     cout << cakes << endl;
 	}
+	// ll keep = 100000000;
 	int main()
 	{
 		Speedo;
