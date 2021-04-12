@@ -1455,6 +1455,25 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF112868967": {
+    "contest_id": 1511,
+    "language": "GNU C++17",
+    "path": "codeforces/1511/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Yet Another Card Deck",
+    "problem_url": "https://codeforces.com/contest/1511/problem/C",
+    "submission_id": "CF112868967",
+    "submission_url": "https://codeforces.com/contest/1511/submission/112868967",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "trees",
+      "*1100"
+    ],
+    "timestamp": "Apr/12/2021 20:35"
+  },
   "CF112876487": {
     "contest_id": 330,
     "language": "GNU C++17",
