@@ -1455,6 +1455,22 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF113452923": {
+    "contest_id": 1428,
+    "language": "GNU C++17",
+    "path": "codeforces/1428/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Box is Pull",
+    "problem_url": "https://codeforces.com/contest/1428/problem/A",
+    "submission_id": "CF113452923",
+    "submission_url": "https://codeforces.com/contest/1428/submission/113452923",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/19/2021 04:47"
+  },
   "CF113470310": {
     "contest_id": 1428,
     "language": "GNU C++17",
