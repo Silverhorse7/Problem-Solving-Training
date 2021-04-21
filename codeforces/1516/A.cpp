@@ -85,10 +85,10 @@ void it_was_me_dio_hahahahahaha()
 			{
 				flag = 1;
 				break;
- 
+
 			}
 		}
-		if (flag == 1)break;
+		if (flag == 1 || k==0)break;
 	}
 		allout(v);
 }
@@ -98,7 +98,7 @@ int main()
 	int t;
 	t = 1;
 	cin >> t;
- 
+
 	while(t--)
 	{
 		it_was_me_dio_hahahahahaha();
