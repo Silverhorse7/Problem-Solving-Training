@@ -38,7 +38,6 @@ ll sum = 0, final = 0, result = 0;
 #define lmao(s,arr) for(int i =  0 ; i <s.size();i++){arr[i]=s[i];}
 #define allout(first) for(auto ele : first) {cout<<ele<<" ";}cout<<endl;
 #define f(i,n) for(int i = 0 ; i<n;i++)
-#define ceil(x) static_cast<long long>(ceil(x))
 ///**************************** F U N C T I O N S  ****************************///
 //Comment Code Block Ctrl + K + C / Ctrl + K + U-->remove comment
 template <class T = int>
@@ -124,7 +123,7 @@ void it_was_me_dio_hahahahahaha()
 {
 	ll x;
 	cin >> x;
-	cout << ceil(double(x)/2)<< endl;
+	cout << (x+1)/2 << endl;
 }
 int main()
 {
