@@ -1455,6 +1455,22 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF114390603": {
+    "contest_id": 365,
+    "language": "GNU C++17",
+    "path": "codeforces/365/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Fibonacci Segment",
+    "problem_url": "https://codeforces.com/contest/365/problem/B",
+    "submission_id": "CF114390603",
+    "submission_url": "https://codeforces.com/contest/365/submission/114390603",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Apr/27/2021 20:20"
+  },
   "CF114404332": {
     "contest_id": 1183,
     "language": "GNU C++17",
