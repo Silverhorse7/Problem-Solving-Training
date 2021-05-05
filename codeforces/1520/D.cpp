@@ -12,7 +12,6 @@ using namespace std;
 #define elif else if 
 #define test   cout<<" We Fucked up Here Boss_________________"<<endl
 #define allout(first) for(auto ele : first) {cout<<ele<<" ";}cout<<endl;
-//kkz
 ll printNcR(int n, int r)
 {
     long long p = 1, k = 1;
@@ -48,14 +47,12 @@ int main()
         ll n;
         cin >> n;
         vector<ll>v(n);
+        ll k ;
+        unordered_map<ll, ll>mp;
         for (int i = 0; i < n; i++)
         {
-            cin >> v[i];
-        }
-        map<ll, ll>mp;
-        for (int i = 0; i < n; i++)
-        {
-            mp[v[i] -i]++;
+            cin>>k;
+            mp[k -(i+1)]++;
         }
         ll cnt = 0;
         for (auto ele : mp)
