@@ -68,4 +68,4 @@ int main()
         cout << cnt << Endl;
      //   cout << cnt << endl;
     }
-}//re
+}
