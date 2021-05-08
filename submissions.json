@@ -1455,6 +1455,26 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF115679306": {
+    "contest_id": 891,
+    "language": "GNU C++17",
+    "path": "codeforces/891/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Pride",
+    "problem_url": "https://codeforces.com/contest/891/problem/A",
+    "submission_id": "CF115679306",
+    "submission_url": "https://codeforces.com/contest/891/submission/115679306",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "May/08/2021 10:41"
+  },
   "CF115709838": {
     "contest_id": 1521,
     "language": "GNU C++17",
