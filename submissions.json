@@ -1455,6 +1455,24 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF115952594": {
+    "contest_id": 445,
+    "language": "GNU C++17",
+    "path": "codeforces/445/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "DZY Loves Chemistry",
+    "problem_url": "https://codeforces.com/contest/445/problem/B",
+    "submission_id": "CF115952594",
+    "submission_url": "https://codeforces.com/contest/445/submission/115952594",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "May/11/2021 16:13"
+  },
   "CF116341067": {
     "contest_id": 1525,
     "language": "GNU C++17",
