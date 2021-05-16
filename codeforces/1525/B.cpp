@@ -30,7 +30,7 @@ void solve() {
 	vector<int>v(n);
 	for (int i = 0; i < n; i++){
 		cin >> sorted[i]; v[i] = sorted[i];
-}//retest
+}
 	sort(all(sorted));
 	if (v == sorted) {
 		cout << 0 << endl;
