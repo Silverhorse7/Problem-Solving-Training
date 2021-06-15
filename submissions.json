@@ -1,4 +1,20 @@
 {
+  "AC23487367": {
+    "contest_id": "abc202",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc202/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "180\u00b0",
+    "problem_url": "https://atcoder.jp/contests/abc202/tasks/abc202_b",
+    "submission_id": "AC23487367",
+    "submission_url": "https://atcoder.jp/contests/abc202/submissions/23487367",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/15/2021 06:49"
+  },
   "AC24393732": {
     "contest_id": "dp",
     "language": "C++ (GCC 9.2.1)",
