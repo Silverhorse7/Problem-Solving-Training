@@ -1,40 +1,84 @@
-#include<bits/stdc++.h>
+//#pragma GCC optimize("Ofast")
+//#pragma GCC optimize ("unroll-loops")
+//#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
+#include <bits/stdc++.h>
 
 using namespace std;
 #define ll long long
-template<int D, typename T>
-struct Vec : public vector<Vec<D - 1, T>> {
-    static_assert(D >= 1, "Vector dimension must be greater than zero!");
-    template<typename... Args>
-    Vec(int n = 0, Args... args) : vector<Vec<D - 1, T>>(n, Vec<D - 1, T>(args...)) {
-    }
-};
-template<typename T>
-struct Vec<1, T> : public vector<T> {
-    Vec(int n = 0, const T& val = T()) : vector<T>(n, val) {
-    }
-};
-const int N = 3009;
-double coins[N];
-Vec<2,double>dp(N,N,-1);
-
-//what i care about ? index for sure ,
-double solve(int i, int cnt1, int cnt2) {
-    if (i <= 0) {
-        if (cnt1 > cnt2) {
-            return 1;
-        }
-        return 0;
-    }
-    double &res = dp[i][cnt1];
-    if (res > -1)return res;
-    return res = solve(i - 1, cnt1 + 1, cnt2)*coins[i] + solve(i - 1, cnt1, cnt2 + 1)*(1-coins[i]);
-
-}
-
-int main() {
+#define Silver_is_better_than_Gold ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define all(x) x.begin(),x.end()
+#define pb push_back
+#define endl       '\n'
+#define return0 return 0
+#define Endl endl
+#define ull unsigned long long
+#define elif else if
+#define test   cout<<" We Droped up Here Boss _________________ "<<endl
+#define allout(v) for(auto ele : v){cout<<ele<<" ";}cout<<endl
+#define mk make_pair
+#define pii pair<int,int>
+#define pll pair<ll,ll>
+#define pcc pair<char,char>
+#define vi vector<int>
+#define vl vector<ll>
+#define vvi vector<vector<int>>
+#define vvl vector<vector<ll>>
+#define txt freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout);
+#define ld long double
+#define vb vector<bool>
+#define getlost {cout<<"NO"<<endl;return ;}
+#define getgud {cout<<"YES"<<endl;return ;}
+#define tests(x) for(int i =  1 ; i<=x;i++)
+#define inp(v,n) for(int i = 0 ;  i<n;i++)cin>>v[i];
+#define outp(v) for(auto ele : v){        cout << ele.first << " " << ele.second << " ";}cout<<endl
+const ll mod = 1e9 + 7;
+#define summ(v,sum) for(auto ele : v)sum+=ele;
+#define inti int i
+#define sz(x) ((int) (x).size())
+#define dups(divs)     divs.erase(unique(divs.begin(), divs.end()), divs.end());
+#define fo(i,a,b) for(int i = a ; i<=b;i++)
+#define outq(q)     queue<int>qq = q;while (qq.size()) { cout << qq.front() << " "; qq.pop();};
+#define sttk(x) static_cast<ll>(x)
+#define re register
+#define intj int j
+#define debug cout<<"Output is  :  ";
+#define debug2 cout<<"End of the output______________________"<<endl;
+double dp[3003][3003];
+void solve() {
     int n;
-    cin >> n;
-    for (int i = 1; i <= n; i++)cin >> coins[i];
-    cout << fixed << setprecision(10) << solve(n,0,0);
+    cin>>n;
+
+    dp[0][0]=1;
+    vector<double>v(n+1);
+    v[0]=0;
+    for(int i = 1 ; i<=n;i++){
+        cin>>v[i];
+    }
+    for(int i=1;i<=n;i++)
+    {
+       dp[i][0]=dp[i-1][0]*(1-v[i]);
+    }
+    for(int i=1;i<=n;i++)
+        for(int j=1;j<=i;j++)
+        {
+            dp[i][j]=dp[i-1][j-1]*v[i];
+            dp[i][j]+=dp[i-1][j]*(1-v[i]);
+        }
+        double ans = 0 ;
+        for(int i = (n+1)/2 ;i<=n;i++){
+            ans+=dp[n][i];
+        }
+        cout<<fixed<<setprecision(10)<<ans<<endl;
+}
+int main() {
+    Silver_is_better_than_Gold;
+    // For getting input from input.txt file
+    //freopen("mosalah.in", "r", stdin);
+    int t = 1;
+    //  cin >> t;
+    while (t--) {
+        solve();
+    }
+
+    //-
 }
