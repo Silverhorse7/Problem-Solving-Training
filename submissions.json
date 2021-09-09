@@ -1455,6 +1455,24 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF128329807": {
+    "contest_id": 1362,
+    "language": "GNU C++17",
+    "path": "codeforces/1362/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Johnny and Another Rating Drop",
+    "problem_url": "https://codeforces.com/contest/1362/problem/C",
+    "submission_id": "CF128329807",
+    "submission_url": "https://codeforces.com/contest/1362/submission/128329807",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Sep/09/2021 11:21"
+  },
   "CF128502212": {
     "contest_id": 1077,
     "language": "GNU C++17",
