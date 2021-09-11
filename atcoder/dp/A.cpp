@@ -1,26 +1,19 @@
 #include<bits/stdc++.h>
-
 using namespace std;
-#define ll long long
-//dp[i]=max(dp[i],solve(i-1)+abs(diff),solve(i-2)+abs(diff));
-const int N = 1e5 + 5;
-
-ll h[N], dp[N];
-int diff(int x , int y){
-    return abs(h[x]-h[y]);
-}
-
-ll solve(int i) {
-    if (i <= 0)return INT_MAX;
-    if (i == 1)return 0;
-    if (dp[i] != INT_MAX)return dp[i];
-    return dp[i]=min(solve(i-1)+diff(i,i-1),solve(i-2)+diff(i,i-2));
-}
-
-int main() {
+    vector<long long int>v,dp;
+    long long int solve(int i){
+        if(i==0)return 0;
+        if(~dp[i])return dp[i];
+        dp[i]=INT_MAX;
+        for(int j = i-1 ;j>=i-2 and j>=0;j--){
+            dp[i]=min(solve(j)+(abs(v[i]-v[j])),dp[i]);
+        }
+        return dp[i];
+    }
+signed main() {
     int n;
-    cin >> n;
-    for (int i = 1; i <= n; i++)cin >> h[i];
-    for(int i =1 ; i <=N;i++)dp[i]=INT_MAX;
-    cout << solve(n);
+    cin>>n;
+    v.resize(n);for(auto &ele  :v)cin>>ele;
+    dp.resize(n+123,-1);
+    cout<<solve(n-1);
 }
