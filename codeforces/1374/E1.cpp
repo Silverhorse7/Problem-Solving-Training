@@ -22,44 +22,59 @@ signed main() {
         long long int x=pq1.top();
         long long int y = pq2.top();
         long long int z = pq12.top();
-        if (p1 >= k) {
-            if (p2 < k) {
-                if (y < z) {
+        if(p1<k)
+        {
+            if(p2<k)
+            {
+                if(x+y<z)
+                {
                     p1++;
                     p2++;
-                    ans += y;
+                    ans+=x+y;
                     pq1.pop();
-                } else {
+                    pq2.pop();
+                }
+                else
+                {
                     p1++;
                     p2++;
-                    ans += z;
+                    ans+=z;
                     pq12.pop();
                 }
             }
-        } else {
-            if (p2 < k) {
-                if (x + y < z) {
+            else
+            {
+                if(x<z)
+                {
                     p1++;
                     p2++;
-                    ans += x + y;
+                    ans+=x;
                     pq1.pop();
-                    pq2.pop();
-                } else {
+                }
+                else
+                {
                     p1++;
                     p2++;
-                    ans += z;
+                    ans+=z;
                     pq12.pop();
                 }
-            } else if (x >= z) {
+            }
+        }
+        else if(p2<k)
+        {
+            if(y<z)
+            {
                 p1++;
                 p2++;
-                ans += z;
-                pq12.pop();
-            } else {
-                p1++;
-                p2++;
-                ans += x;
+                ans+=y;
                 pq1.pop();
+            }
+            else
+            {
+                p1++;
+                p2++;
+                ans+=z;
+                pq12.pop();
             }
         }
     }
