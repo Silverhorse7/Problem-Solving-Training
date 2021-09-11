@@ -1,21 +1,18 @@
 #include<bits/stdc++.h>
-
 using namespace std;
-#define ll long long
-const int N = 1e5 + 5;
-ll a[N], b[N], c[N];
-ll dp[N][4];
-int n;
-int main() {
-    cin >> n;
-    for (int i = 1; i <= n; i++)cin >> a[i]>>b[i]>>c[i];
-    dp[1][1]=a[1];
-    dp[1][2]=b[1];
-    dp[1][3]=c[1];
-    for(int i =2 ;i <=n;i++){
-        dp[i][1]=max(dp[i-1][2],dp[i-1][3])+a[i];
-        dp[i][2]=max(dp[i-1][1],dp[i-1][3])+b[i];
-        dp[i][3]=max(dp[i-1][1],dp[i-1][2])+c[i];
+int dp[300000][3];
+signed main() {
+    int n;
+    cin>>n;
+    vector<vector<int>>v(n,vector<int>(3));
+    for(int i = 0 ; i <n;i++)for(int j = 0  ; j <3;j++)cin>>v[i][j];
+    dp[0][0]=v[0][0];
+    dp[0][1]=v[0][1];
+    dp[0][2]=v[0][2];
+    for(int i =1 ; i <n;i++){
+        dp[i][0]=max(dp[i-1][1],dp[i-1][2])+v[i][0];
+        dp[i][1]=max(dp[i-1][0],dp[i-1][2])+v[i][1];
+        dp[i][2]=max(dp[i-1][0],dp[i-1][1])+v[i][2];
     }
-    cout<<*max_element(dp[n],dp[n]+4);
+    cout<<max({dp[n-1][0],dp[n-1][1],dp[n-1][2]});
 }
