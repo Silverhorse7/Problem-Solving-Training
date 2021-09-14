@@ -5,6 +5,9 @@ vector<vector<int>> table,prefix;
 int n , m;
 map<pair<int,int>,int>memo;
 int main() {
+    ios_base::sync_with_stdio();
+    cin.tie();
+    cout.tie();
     cin >> n >> m;
     table.resize(n+1 , vector<int>(m+1));
     for(int i = 1 ; i <= n ; ++i){
@@ -26,7 +29,7 @@ int main() {
         if(memo[{l,r}]==2){
             cout<<"No"<<endl;continue;
         }
-        if( memo[{l,r}]==1){
+        if(n==1 or memo[{l,r}]==1){
             cout<<"Yes"<<endl;continue;
         }
         bool temp=0;
