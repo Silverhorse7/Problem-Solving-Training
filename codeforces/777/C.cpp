@@ -1,60 +1,48 @@
 #include <bits/stdc++.h>
 using namespace std;
-vector<vector<int>> table;
+//Optimize later !!!(when free)
+vector<vector<int>> table,prefix;
 int n , m;
+map<pair<int,int>,int>memo;
 int main() {
-    cin.tie();
-    cout.tie();
-    ios_base::sync_with_stdio();
     cin >> n >> m;
-    table.resize(n+12 , vector<int>(m+12));
+    table.resize(n+1 , vector<int>(m+1));
     for(int i = 1 ; i <= n ; ++i){
         for(int j = 1 ; j <= m ; ++j){
             cin >> table[i][j];
         }
     }
-map<int,int>Ranges,renew;
-    for(int i = 1;  i <=m;i++){
-        for(int j =1; j <=n;j++){
-            int first = j;
-            while(j<=n and table[j][i]<=table[j+1][i]){
-                j++;
-            }
-            Ranges[first]=max(Ranges[first],j);
+    prefix.resize(m+1 , vector<int>(n+1));
+    for(int i = 1  ; i <=m;i++){
+        for(int j = 2 ; j <=n;j++){
+            prefix[i][j]=prefix[i][j-1]+(table[j][i]<table[j-1][i]);
         }
     }
-    for(auto it = Ranges.begin();it!=Ranges.end();){
-        int x=it->first;
-        int y=it->second;
-        if(it!=Ranges.end() and x<=it->first and y>=it->second) {
-            while (it != Ranges.end() and x <= it->first and y >= it->second) {
-                it++;
-            }
-        }
-        else{
-            it++;
-        }
-        renew[x]=y;
-    }
-    Ranges.clear();
-    Ranges=renew;
     int Q;
     cin >> Q;
     for(int i = 0 ; i <Q;i++){
         int l , r;
         cin>>l>>r;
-        if(l==r){
-            cout<<"Yes"<<endl;
-            continue;
+        if(memo[{l,r}]==2){
+            cout<<"No"<<endl;continue;
         }
-        auto it = Ranges.upper_bound(l);
-        if(it!=Ranges.begin())
-        it--;
-        if(it->second>=r){
-            cout<<"Yes"<<endl;
+        if( memo[{l,r}]==1){
+            cout<<"Yes"<<endl;continue;
         }
-        else{
-            cout<<"No"<<endl;
+        bool temp=0;
+        int start = 1 ;
+        int end = m;
+        for(int j = 1 ; j <=m;j++){
+            if(prefix[j][r]-prefix[j][l]==0){
+                temp=1;
+                cout << "Yes\n";
+                memo[{l,r}]=1;
+                break;
+            }
+        }
+        if(!temp){
+            cout << "No\n";
+            memo[{l,r}]=2;
         }
     }
     return 0;
