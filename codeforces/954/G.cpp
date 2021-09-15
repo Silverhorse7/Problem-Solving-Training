@@ -14,10 +14,10 @@ bool check(ll x, vector<ll> &cur_pow) {
     for (int i = 0; i < n; i++) {
         if (x > sum + cur_pow[i]) {
             ll add = x - (sum + cur_pow[i]);
-            moves += add;
-            sum += add;
-            int toAddTheValue = min(i + r * 2, n - 1);
-            diff[toAddTheValue] -= add;
+                moves += add;
+                sum += add;
+                int toAddTheValue = min(i + r * 2, n - 1);
+                diff[toAddTheValue] -= add;
         }
         sum += diff[i];
         if (moves > k) return false;
@@ -25,7 +25,7 @@ bool check(ll x, vector<ll> &cur_pow) {
     if (moves <= k) return true;
     else return false;
 }
-bool chk(ll x,vector<ll>&cur_pow){
+bool chk(ll x,vector<ll>cur_pow){
     ll moves=0;
     for (int i=0; i<n; i++)
     {
