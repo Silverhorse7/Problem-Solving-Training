@@ -2,7 +2,6 @@
 
 using namespace std;
 #define ll long long
-    const int mod = 998244353;
 int main() {
     ll n;
     cin>>n;
@@ -14,12 +13,12 @@ int main() {
     }
     for(int i = 0 ; i<n;i++){
         a[i].first*=(a[i].second*(n-a[i].second+1));
-       // a[i].first%=mod;
     }
     for(auto &ele : b)cin>>ele;
     sort(a.begin(),a.end());
     sort(b.begin(),b.end(),greater<int>());
     ll ans = 0;
+    const int mod = 998244353;
     for(int i =0 ; i <n;i++)
     {
         a[i].first%=mod;
