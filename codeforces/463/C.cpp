@@ -2,20 +2,20 @@
 
 #define ll long long
 using namespace std;
-const int N = 2020 * 2;
+const int N = 2020 * 2+1000;
 long long d1[N], d2[N];
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cout.tie(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio();
+    cout.tie();
+  //  cin.tie();
     int n;
     cin >> n;
     vector<vector<ll>> v(n, vector<ll>(n));
     ll sum = 0;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            cin >> v[i][j];
+            scanf("%lld",&v[i][j]);
             d1[i + j] += v[i][j];
             d2[i - j + n] += v[i][j];
         }
