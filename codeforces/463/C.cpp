@@ -2,7 +2,7 @@
 
 #define ll long long
 using namespace std;
-const int N = 2020 * 2+1000;
+const int N = 2020 * 2;
 long long d1[N], d2[N];
 
 int main() {
