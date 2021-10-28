@@ -1455,6 +1455,23 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF133392845": {
+    "contest_id": 1027,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1027/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Numbers on the Chessboard",
+    "problem_url": "https://codeforces.com/contest/1027/problem/B",
+    "submission_id": "CF133392845",
+    "submission_url": "https://codeforces.com/contest/1027/submission/133392845",
+    "tags": [
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Oct/28/2021 22:05"
+  },
   "CF133395335": {
     "contest_id": 998,
     "language": "GNU C++20 (64)",
