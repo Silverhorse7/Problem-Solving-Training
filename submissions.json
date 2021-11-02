@@ -1455,6 +1455,23 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF134143753": {
+    "contest_id": 1607,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1607/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Linear Keyboard",
+    "problem_url": "https://codeforces.com/contest/1607/problem/A",
+    "submission_id": "CF134143753",
+    "submission_url": "https://codeforces.com/contest/1607/submission/134143753",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Nov/02/2021 20:22"
+  },
   "CF134155587": {
     "contest_id": 151,
     "language": "Java 11",
