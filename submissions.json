@@ -1,4 +1,20 @@
 {
+  "AC26999471": {
+    "contest_id": "abc224",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc224/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Triangle?",
+    "problem_url": "https://atcoder.jp/contests/abc224/tasks/abc224_c",
+    "submission_id": "AC26999471",
+    "submission_url": "https://atcoder.jp/contests/abc224/submissions/26999471",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/03/2021 04:32"
+  },
   "AC27000375": {
     "contest_id": "abc221",
     "language": "C++ (GCC 9.2.1)",
