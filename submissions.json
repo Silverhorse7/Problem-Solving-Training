@@ -1,4 +1,20 @@
 {
+  "AC27014472": {
+    "contest_id": "abc156",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc156/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Rally",
+    "problem_url": "https://atcoder.jp/contests/abc156/tasks/abc156_c",
+    "submission_id": "AC27014472",
+    "submission_url": "https://atcoder.jp/contests/abc156/submissions/27014472",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/04/2021 00:01"
+  },
   "AC27014554": {
     "contest_id": "code-festival-2016-qualb",
     "language": "C++ (GCC 9.2.1)",
