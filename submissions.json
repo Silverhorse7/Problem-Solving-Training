@@ -1,4 +1,20 @@
 {
+  "AC27014438": {
+    "contest_id": "abc139",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc139/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Power Socket",
+    "problem_url": "https://atcoder.jp/contests/abc139/tasks/abc139_b",
+    "submission_id": "AC27014438",
+    "submission_url": "https://atcoder.jp/contests/abc139/submissions/27014438",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/03/2021 23:54"
+  },
   "AC27014472": {
     "contest_id": "abc156",
     "language": "C++ (GCC 9.2.1)",
