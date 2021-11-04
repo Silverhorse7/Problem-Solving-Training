@@ -1,4 +1,20 @@
 {
+  "AC27017777": {
+    "contest_id": "sumitrust2019",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/sumitrust2019/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Tax Rate",
+    "problem_url": "https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_b",
+    "submission_id": "AC27017777",
+    "submission_url": "https://atcoder.jp/contests/sumitrust2019/submissions/27017777",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/04/2021 06:30"
+  },
   "AC27031902": {
     "contest_id": "dp",
     "language": "C++ (GCC 9.2.1)",
