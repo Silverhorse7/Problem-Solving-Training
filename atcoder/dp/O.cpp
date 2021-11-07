@@ -29,7 +29,7 @@ signed main() {
     for (int i = 0; i < n; i++)for (int j = 0; j < n; j++)cin >> can[i][j];
     dp[0] = 1;
     for (int mask = 0; mask < two[n]; mask++) {//iterate over 2^n
-        int man = ones(mask);//number of ones in mask value
+        int man = ones(mask);//number of zeros in mask value
         for (int woman = 0; woman < n; woman++) {
             if (can[man][woman] and !(mask & two[woman]))//not available
             {
@@ -38,5 +38,5 @@ signed main() {
             }
         }
     }
-    cout << dp[two[n]-1];
+    cout << dp[(1 << n) - 1];
 }
