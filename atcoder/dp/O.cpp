@@ -28,10 +28,10 @@ signed main() {
     cin >> n;
     for (int i = 0; i < n; i++)for (int j = 0; j < n; j++)cin >> can[i][j];
     dp[0] = 1;
-    for (int mask = 0; mask < two[n]; mask++) {//iterate over 2^n subsets
-        int man = ones(mask);//number of elements in that subset
+    for (int mask = 0; mask < two[n]; mask++) {//iterate over 2^n
+        int man = ones(mask);//number of ones in mask value
         for (int woman = 0; woman < n; woman++) {
-            if (can[man][woman] and !(mask & two[woman]))//not available in that subset and supposed to be in 
+            if (can[man][woman] and !(mask & two[woman]))//not available
             {
                 dp[mask ^ two[woman]] += dp[mask];
                 dp[mask ^ two[woman]] %= M;
