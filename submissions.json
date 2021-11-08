@@ -1,4 +1,20 @@
 {
+  "AC27139174": {
+    "contest_id": "abc207",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc207/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Many Segments",
+    "problem_url": "https://atcoder.jp/contests/abc207/tasks/abc207_c",
+    "submission_id": "AC27139174",
+    "submission_url": "https://atcoder.jp/contests/abc207/submissions/27139174",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/08/2021 17:37"
+  },
   "AC27139342": {
     "contest_id": "abc204",
     "language": "C++ (GCC 9.2.1)",
