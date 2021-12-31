@@ -1,4 +1,20 @@
 {
+  "AC28263318": {
+    "contest_id": "abc201",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc201/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Secret Number",
+    "problem_url": "https://atcoder.jp/contests/abc201/tasks/abc201_c",
+    "submission_id": "AC28263318",
+    "submission_url": "https://atcoder.jp/contests/abc201/submissions/28263318",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/31/2021 14:34"
+  },
   "AC28275199": {
     "contest_id": "abc200",
     "language": "C++ (GCC 9.2.1)",
