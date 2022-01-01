@@ -1,4 +1,20 @@
 {
+  "AC28278790": {
+    "contest_id": "abc197",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc197/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "ORXOR",
+    "problem_url": "https://atcoder.jp/contests/abc197/tasks/abc197_c",
+    "submission_id": "AC28278790",
+    "submission_url": "https://atcoder.jp/contests/abc197/submissions/28278790",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/01/2022 14:01"
+  },
   "AC28785999": {
     "contest_id": "dp",
     "language": "C++ (GCC 9.2.1)",
