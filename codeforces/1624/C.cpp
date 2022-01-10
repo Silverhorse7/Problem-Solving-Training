@@ -1,71 +1,50 @@
-#include<iostream>
-#include<vector>
-#include<set>
-#include<algorithm>
-#include<map>
-using namespace std;
+#include <bits/stdc++.h>
+
 #define int long long
-#define sz(v) (int)v.size()
+using namespace std;
+
 signed main() {
-    int t;
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int t = 1;
     cin >> t;
     while (t--) {
         int n;
         cin >> n;
-        vector<int> v(n+44);
-        for (int i = 0; i < n; i++)cin >> v[i];
-        auto get_all = [&](int x) -> vector<int> {
-            vector<int> y;
-            while (x) {
-                if(x<=n)
-                    y.push_back(x);
-                x /= 2;
-            }
-            sort(y.begin(), y.end());
-            return y;
-        };
-        vector<vector<int>> all;
-        sort(v.begin(), v.begin()+n);
+        vector<int> v(n);
+        for (auto &i: v)
+            cin >> i;
+        bool flg = true;
+        set<int> st;
         for (int i = 0; i < n; i++) {
-            all.push_back(get_all(v[i]));
+            while (v[i] > n)
+                v[i] /= 2;
+            while (st.find(v[i]) != st.end() and v[i] > 0)
+                v[i] /= 2;
+            if (v[i] != 0)
+                st.insert(v[i]);
+            else
+                flg = false;
         }
-        sort(all.begin(), all.end());
-        map<int, int> frq;
-        for (const auto& i: all)
-            for (auto j: i) {
-                frq[j]++;
-            }
-        multiset<int> ms;
-        auto cmp = [&](int &x, int &y) -> bool {
-            if (frq[x] > frq[y])return true;
-            if (frq[x] < frq[y])return false;
-            return true;
-        };
-        auto cmp1 = [&](vector<int> &v1, vector<int> &v2) -> bool {
-            if (sz(v1) > sz(v2))return 1;
-            if (sz(v1) < sz(v2))return 0;
-            for (int i = 0; i <sz(v1); i++) {
-                if (frq[v1[i]] > frq[v2[i]])return true;
-                if (frq[v1[i]] < frq[v2[i]])
-                    return false;
-            }
-            return true;
-        };
-        for (auto &i: all) {
-            sort(i.rbegin(), i.rend(), cmp);
-        }
-        sort(all.begin(), all.end(), cmp1);
-        for (auto &i: all) {
-            for (auto j: i) {
-                if (j <= n && ms.find(j) == ms.end()) {
-                    ms.insert(j);
-                    break;
+        sort(v.begin(), v.end());
+        bool flag = 0;
+        for (int i = 0; i < n; i++) {
+            if (v[i] >= i + 1) {
+                while (v[i] != i + 1) {
+                    v[i] /= 2;
                 }
+                if (v[i] == i + 1) continue;
+                flg = false;
+                break;
+
+            } else {
+                flag = false;
+                break;
             }
         }
-        if (ms.size() == n)cout << "YES";
-        else
-            cout << "NO";
+        cout << (flg == false ? "NO" : "YES");
         cout << endl;
-    }//
+    }
 }
+
