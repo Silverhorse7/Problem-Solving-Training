@@ -1,4 +1,20 @@
 {
+  "AC28789797": {
+    "contest_id": "abc236",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc236/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Route Map",
+    "problem_url": "https://atcoder.jp/contests/abc236/tasks/abc236_c",
+    "submission_id": "AC28789797",
+    "submission_url": "https://atcoder.jp/contests/abc236/submissions/28789797",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/25/2022 08:39"
+  },
   "AC28796686": {
     "contest_id": "abc236",
     "language": "C++ (GCC 9.2.1)",
