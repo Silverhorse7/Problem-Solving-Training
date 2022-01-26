@@ -1,4 +1,20 @@
 {
+  "AC28817468": {
+    "contest_id": "abc235",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc235/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Climbing Takahashi",
+    "problem_url": "https://atcoder.jp/contests/abc235/tasks/abc235_b",
+    "submission_id": "AC28817468",
+    "submission_url": "https://atcoder.jp/contests/abc235/submissions/28817468",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jan/26/2022 23:49"
+  },
   "AC28817484": {
     "contest_id": "abc235",
     "language": "C++ (GCC 9.2.1)",
