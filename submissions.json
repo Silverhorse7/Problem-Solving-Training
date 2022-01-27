@@ -1,4 +1,20 @@
 {
+  "AC28826715": {
+    "contest_id": "abc234",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc234/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Prefix K-th Max",
+    "problem_url": "https://atcoder.jp/contests/abc234/tasks/abc234_d",
+    "submission_id": "AC28826715",
+    "submission_url": "https://atcoder.jp/contests/abc234/submissions/28826715",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jan/27/2022 14:16"
+  },
   "AC29897566": {
     "contest_id": "abc242",
     "language": "C++ (GCC 9.2.1)",
