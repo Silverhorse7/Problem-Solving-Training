@@ -7,13 +7,13 @@ using namespace std;
 
 using namespace __gnu_pbds;
 tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> os;
-int n, k, i, x;
+int n, k, p[500000];
 
-main() {
+signed main() {
     cin >> n >> k;
-    for (i = 0; i < n; i++) {
-        cin >> x;
-        os.insert(x);
+    for (int i = 0; i < n; i++)cin >> p[i];
+    for (int i = 0; i < n; i++) {
+        os.insert(p[i]);
         if (i >= k - 1) cout << *(os.find_by_order(os.size() - k)) << endl;
     }
 }
