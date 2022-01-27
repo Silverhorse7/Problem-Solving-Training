@@ -1,19 +1,26 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+#define ll long long
 
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 
 using namespace __gnu_pbds;
-tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> os;
-int n, k, p[500000];
+#define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 
 signed main() {
-    cin >> n >> k;
-    for (int i = 0; i < n; i++)cin >> p[i];
-    for (int i = 0; i < n; i++) {
+    int n, k;
+    scanf("%d%d", &n, &k);
+    vector<int> p(n);
+    for (auto &i: p)
+        scanf("%d", &i);
+    ordered_set os;
+    for (int i = 0; i < k; i++)
         os.insert(p[i]);
-        if (i >= k - 1) cout << *(os.find_by_order(os.size() - k)) << endl;
+    cout << *(os.find_by_order(os.size()-k)) << endl;
+    for (int i = k; i < n; i++) {
+        os.insert(p[i]);
+        cout << *(os.find_by_order(os.size()-k)) << endl;
     }
 }
