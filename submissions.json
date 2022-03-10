@@ -1455,6 +1455,22 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF149133678": {
+    "contest_id": 1651,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1651/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Playoff",
+    "problem_url": "https://codeforces.com/contest/1651/problem/A",
+    "submission_id": "CF149133678",
+    "submission_url": "https://codeforces.com/contest/1651/submission/149133678",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/10/2022 17:21"
+  },
   "CF149140864": {
     "contest_id": 1651,
     "language": "GNU C++20 (64)",
