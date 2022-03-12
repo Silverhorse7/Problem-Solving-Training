@@ -1,4 +1,20 @@
 {
+  "AC30089879": {
+    "contest_id": "abc103",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc103/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "String Rotation",
+    "problem_url": "https://atcoder.jp/contests/abc103/tasks/abc103_b",
+    "submission_id": "AC30089879",
+    "submission_url": "https://atcoder.jp/contests/abc103/submissions/30089879",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Mar/12/2022 20:48"
+  },
   "AC30667513": {
     "contest_id": "abc246",
     "language": "C++ (GCC 9.2.1)",
