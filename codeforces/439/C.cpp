@@ -1,17 +1,19 @@
 #include<bits/stdc++.h>
 
+#define LL long long
+#define MAX 100010
 using namespace std;
-const int N = 1e5 + 5;
-pair<int, int> num[N];
+
+pair<int, int> num[MAX];
 
 bool cmp(pair<int, int> x, pair<int, int> y) {
     return x.second > y.second;
 }
 
 int main() {
-    int n, k, p;
+    LL n, k, p;
     cin >> n >> k >> p;
-    int odd = 0, even = 0;
+    LL odd = 0, even = 0;
     for (int i = 0; i < n; i++) {
         cin >> num[i].first;
         num[i].second = num[i].first % 2;
