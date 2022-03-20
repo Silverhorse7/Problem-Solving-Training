@@ -1455,6 +1455,23 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF150182588": {
+    "contest_id": 962,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/962/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Merge Equals",
+    "problem_url": "https://codeforces.com/contest/962/problem/D",
+    "submission_id": "CF150182588",
+    "submission_url": "https://codeforces.com/contest/962/submission/150182588",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Mar/20/2022 02:23"
+  },
   "CF150199438": {
     "contest_id": 1642,
     "language": "MS C++ 2017",
