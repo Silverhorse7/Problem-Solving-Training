@@ -1455,6 +1455,24 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF151121309": {
+    "contest_id": 1658,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1658/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Marin and Photoshoot",
+    "problem_url": "https://codeforces.com/contest/1658/problem/A",
+    "submission_id": "CF151121309",
+    "submission_url": "https://codeforces.com/contest/1658/submission/151121309",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/27/2022 16:57"
+  },
   "CF151126316": {
     "contest_id": 1658,
     "language": "GNU C++20 (64)",
