@@ -85,15 +85,6 @@ int t[N], l[N], r[N];
 int n;
 string s;
 
-void assign_val(int v) {
-    if (s[n - v] == '?')
-        t[v] = t[v * 2] + t[v * 2 + 1];
-    else if (s[n - v] == '1')
-        t[v] = t[v * 2];
-    else
-        t[v] = t[v * 2 + 1];
-}
-
 void build(int v, int tl, int tr) {
     l[v] = tl;
     r[v] = tr;
@@ -104,20 +95,35 @@ void build(int v, int tl, int tr) {
     int tm = (tl + tr) / 2;
     build(v * 2, tl, tm);
     build(v * 2 + 1, tm + 1, tr);
-    assign_val(v);
+    if (s[n - v] == '?')
+        t[v] = t[v * 2] + t[v * 2 + 1];
+    else if (s[n - v] == '1')
+        t[v] = t[v * 2];
+    else
+        t[v] = t[v * 2 + 1];
 }
 
 void update(int v, int tl, int tr, char c) {
     if (l[v] == tl and r[v] == tr) {
         s[n - v] = c;
-        assign_val(v);
+        if (c == '?')
+            t[v] = t[v * 2] + t[v * 2 + 1];
+        else if (c == '1')
+            t[v] = t[v * 2];
+        else
+            t[v] = t[(v << 1) + 1];
     } else {
         int tm = (l[v] + r[v]) / 2;
         if (tl < tm)
             update(v * 2, tl, tr, c);
         else
             update(v * 2 + 1, tl, tr, c);
-        assign_val(v);
+        if (s[n - v] == '?')
+            t[v] = t[v * 2] + t[v * 2 + 1];
+        else if (s[n - v] == '1')
+            t[v] = t[v * 2];
+        else
+            t[v] = t[v * 2 + 1];
     }
 }
 
