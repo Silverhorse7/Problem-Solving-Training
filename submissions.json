@@ -2150,6 +2150,24 @@
     ],
     "timestamp": "Apr/01/2022 00:29"
   },
+  "CF152535224": {
+    "contest_id": 1181,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1181/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Split a Number",
+    "problem_url": "https://codeforces.com/contest/1181/problem/B",
+    "submission_id": "CF152535224",
+    "submission_url": "https://codeforces.com/contest/1181/submission/152535224",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Apr/03/2022 04:48"
+  },
   "CF152542380": {
     "contest_id": 659,
     "language": "GNU C++20 (64)",
