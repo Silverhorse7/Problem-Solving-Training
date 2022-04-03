@@ -2150,6 +2150,23 @@
     ],
     "timestamp": "Apr/01/2022 00:29"
   },
+  "CF152543000": {
+    "contest_id": 659,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/659/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Tanya and Toys",
+    "problem_url": "https://codeforces.com/contest/659/problem/C",
+    "submission_id": "CF152543000",
+    "submission_url": "https://codeforces.com/contest/659/submission/152543000",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Apr/03/2022 07:30"
+  },
   "CF152544745": {
     "contest_id": 659,
     "language": "GNU C++20 (64)",
