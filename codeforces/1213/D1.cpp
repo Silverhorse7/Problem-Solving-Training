@@ -85,12 +85,14 @@ signed main() {
     int n, k;
     cin >> n >> k;
     vector<int> v(n);
+    for (auto &i: v)
+        cin >> i;
     for (int i = 0; i < n; i++) {
-        cin >> v[i];
         int cnt = 0;
         int x = v[i];
-        while (x)
-            M[x].push_back(cnt++), x /= 2;
+        while (v[i])
+            M[v[i]].push_back(cnt++), v[i] /= 2;
+        v[i] = x;
     }
     for (auto &i: M) {
         sort(all(i.second));
@@ -98,10 +100,15 @@ signed main() {
             i.S[j] += i.S[j - 1];
     }
     int mx = INT_MAX;
+    //allout(M[v[1]]);
     for (int i = 0; i < n; i++) {
+        vector<int> tries;
+        int cnt = 0;
+        int mn = 1e9;
         while (v[i]) {
             if (M[v[i]].size() >= k) {
-                mx = min(mx, M[v[i]][k - 1]);
+                mn = min(mn, M[v[i]][k - 1]);
+                mx = min(mx, mn);
             }
             v[i] /= 2;
         }
