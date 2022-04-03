@@ -2150,6 +2150,23 @@
     ],
     "timestamp": "Apr/01/2022 00:29"
   },
+  "CF152542380": {
+    "contest_id": 659,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/659/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Qualifying Contest",
+    "problem_url": "https://codeforces.com/contest/659/problem/B",
+    "submission_id": "CF152542380",
+    "submission_url": "https://codeforces.com/contest/659/submission/152542380",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Apr/03/2022 07:21"
+  },
   "CF152543000": {
     "contest_id": 659,
     "language": "GNU C++20 (64)",
