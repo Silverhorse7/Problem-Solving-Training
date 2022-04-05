@@ -35,15 +35,10 @@ void upd(int v, int tl, int tr, int p, int b) {
         } else {
             upd(v * 2 + 1, tm + 1, tr, p, b);
         }
-        if (depth[v * 2] == 0) {
-            tree[v] = tree[v * 2] | tree[v * 2 + 1];
-            depth[v] = 1;
-        } else {
-            tree[v] = tree[v * 2] ^ tree[v * 2 + 1];
-            depth[v] = 0;
-        }
+        tree[v] = depth[v * 2] == 0 ? tree[v * 2] | tree[v * 2 + 1] : tree[v * 2] ^ tree[v * 2 + 1];
     }
 }
+
 signed main() {
     int n, m;
     cin >> n >> m;
