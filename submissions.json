@@ -2184,6 +2184,23 @@
     ],
     "timestamp": "Apr/05/2022 23:42"
   },
+  "CF152883218": {
+    "contest_id": 1656,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1656/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Good Pairs",
+    "problem_url": "https://codeforces.com/contest/1656/problem/A",
+    "submission_id": "CF152883218",
+    "submission_url": "https://codeforces.com/contest/1656/submission/152883218",
+    "tags": [
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Apr/06/2022 23:25"
+  },
   "CF152883232": {
     "contest_id": 1642,
     "language": "GNU C++20 (64)",
