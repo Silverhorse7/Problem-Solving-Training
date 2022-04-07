@@ -2184,6 +2184,23 @@
     ],
     "timestamp": "Apr/05/2022 23:42"
   },
+  "CF152889417": {
+    "contest_id": 127,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/127/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Password",
+    "problem_url": "https://codeforces.com/contest/127/problem/D",
+    "submission_id": "CF152889417",
+    "submission_url": "https://codeforces.com/contest/127/submission/152889417",
+    "tags": [
+      "hashing",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Apr/07/2022 02:36"
+  },
   "CF152889440": {
     "contest_id": 271,
     "language": "GNU C++20 (64)",
