@@ -14,7 +14,7 @@ signed main() {
         for (auto &i: v)cin >> i;
         mx = *max_element(v.begin(), v.end());
         int64_t res = 1e16;
-        for (int height = mx; height <= mx + 100; ++height) {
+        for (int height = mx; height <= mx +100; ++height) {
             int64_t due = 0, uno = 0;
             for (auto &x: v) {
                 due += (height - x) / 2;
@@ -22,7 +22,8 @@ signed main() {
             }
             int64_t all = uno + due * 2;
             int64_t days = all / 3 * 2;
-            days += all % 3;
+            if (all % 3 != 1) {} else ++days;
+            if (all % 3 != 2) {} else days += 2;
             int64_t cnt_days = uno * 2;
             res = min(res, max(cnt_days - 1, days));
         }
