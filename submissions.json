@@ -2184,6 +2184,23 @@
     ],
     "timestamp": "Apr/05/2022 23:42"
   },
+  "CF153566662": {
+    "contest_id": 1369,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1369/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "FashionabLee",
+    "problem_url": "https://codeforces.com/contest/1369/problem/A",
+    "submission_id": "CF153566662",
+    "submission_url": "https://codeforces.com/contest/1369/submission/153566662",
+    "tags": [
+      "geometry",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/13/2022 15:42"
+  },
   "CF153567720": {
     "contest_id": 1369,
     "language": "GNU C++20 (64)",
