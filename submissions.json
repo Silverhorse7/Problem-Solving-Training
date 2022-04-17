@@ -2184,6 +2184,27 @@
     ],
     "timestamp": "Apr/05/2022 23:42"
   },
+  "CF153929023": {
+    "contest_id": 1659,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1659/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Reverse Sort Sum",
+    "problem_url": "https://codeforces.com/contest/1659/problem/D",
+    "submission_id": "CF153929023",
+    "submission_url": "https://codeforces.com/contest/1659/submission/153929023",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "math",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Apr/17/2022 18:10"
+  },
   "CF153961441": {
     "contest_id": 918,
     "language": "GNU C++20 (64)",
