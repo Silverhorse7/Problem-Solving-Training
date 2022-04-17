@@ -2184,6 +2184,23 @@
     ],
     "timestamp": "Apr/05/2022 23:42"
   },
+  "CF153847484": {
+    "contest_id": 1081,
+    "language": "Python 3",
+    "path": "codeforces/1081/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Definite Game",
+    "problem_url": "https://codeforces.com/contest/1081/problem/A",
+    "submission_id": "CF153847484",
+    "submission_url": "https://codeforces.com/contest/1081/submission/153847484",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/17/2022 04:59"
+  },
   "CF153888791": {
     "contest_id": 510,
     "language": "GNU C++20 (64)",
