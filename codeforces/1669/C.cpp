@@ -85,7 +85,6 @@ signed main() {
         } else
             cout << "NO";
         cout << endl;
-        return 0;
     };
     T {
         solve();
