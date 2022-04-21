@@ -87,13 +87,19 @@ signed main() {
         }
         long long res = 0;
      //   for (auto i: ans)cout << i.first << ' ' << i.second << endl;
-        for (int i = 30; i >= 0; i--) {
+        for (int i = 31; i >= 0; i--) {
+            if (i == 31) {
+                if (ans[i] == n) {
+                    res += (1 << i);
+                }
+            } else {
                 if (ans[i] == n) {
                     res += (1 << i);
                 } else if (k - (n - ans[i]) >= 0) {
                     res += (1 << i);
                     k -= (n - ans[i]);
                 }
+            }
         }
         cout << res << endl;
     };
