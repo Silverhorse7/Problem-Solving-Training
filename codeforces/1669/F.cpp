@@ -1,0 +1,116 @@
+//#pragma GCC optimize("Ofast")
+//#pragma GCC optimize ("unroll-loops")
+//#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
+#include "bits/stdc++.h"
+#include<ext/pb_ds/assoc_container.hpp>
+#include <random>
+#include<ext/pb_ds/tree_policy.hpp>
+
+using namespace std;
+using namespace __gnu_pbds;
+template<class T>
+using ordered_set = tree<T, null_type, less<T>, rb_tree_tag,
+        tree_order_statistics_node_update>;
+using namespace std;
+#define ll long long
+#define Silver_is_better_than_Gold ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define all(x) x.begin(),x.end()
+#define allr(x) x.rbegin(),x.rend()
+#define pb push_back
+#define endl '\n'
+#define test   cout<<" We Droped up Here Boss _________________ "<<endl
+#define pii pair<int,int>
+#define vi vector<int>
+#define vl vector<ll>
+#define vvi vector<vector<int>>
+#define vvl vector<vector<ll>>
+#define no {cout<<"NO"<<endl;}
+#define yes {cout<<"YES"<<endl;}
+const int mod = 1e9 + 7;
+#define sz(x) ((int) (x).size())
+#define dups(divs)     divs.erase(unique(divs.begin(), divs.end()), divs.end());
+#define sum(v) accumulate(v.begin(),v.end(),0ll)
+#define T int XXX;cin>>XXX;while(XXX--)
+#define F first
+#define SS second
+#define ld long double
+int dx[4] = {1, -1, 0, 0};
+int dy[4] = {0, 0, 1, -1};
+
+template<class A>
+istream &operator>>(istream &cin, pair<A, A> p) {
+    return cin >> p.first >> p.second;
+}
+
+template<class A>
+istream &operator>>(istream &cin, vector<A> &p) {
+    for (int i = 0; i < sz(p) - 1; i++)
+        cin >> p[i];
+    return cin >> p.back();
+}
+
+template<class A>
+ostream &operator<<(ostream &cout, pair<A, A> const &v) {
+    return cout << v.first << ' ' << v.second << endl;
+}
+
+template<class A>
+ostream &operator<<(ostream &cout, vector<A> const &v) {
+    for (auto ele: v) { cout << ele << " "; }
+    cout << endl;
+    return cout;
+}
+
+ll fastpow(ll base, ll power, ll M) {
+    if (power == 1) return base;
+    ll val = fastpow(base, power / 2, M);
+    return (power % 2 == 0) ? (val * val) % M : (((val * val) % M) * base) % M;
+}
+
+///////////////////////////////////////////////////////////////////////////]
+#define int long long
+const int N = 5e5;
+int first_pos[N], second_pos[N];
+map<string, int> cnt;
+int ans = 0;
+vector<string> a;
+
+void op(int i) {
+    ans += first_pos[a[i][0]] + second_pos[a[i][1]] - 2 * cnt[a[i]];
+    cnt[a[i]]++;
+    first_pos[a[i][0]]++;
+    second_pos[a[i][1]]++;
+}
+
+signed main() {
+    Silver_is_better_than_Gold
+    auto solve = []() {
+        int n;
+        cin >> n;
+        vector<int> a(n);
+        cin >> a;
+        vi Pref(n), Suff(n);
+        for (int i = 0, j = n - 1; i < n; i++, j--) {
+            Pref[i] += (i - 1 >= 0 ? Pref[i - 1] : 0) + a[i];
+            Suff[j] += (j + 1 < n ? Suff[j + 1] : 0) + a[j];
+        }
+        reverse(all(Suff));
+        map<int, int> exist;
+        for (auto i: Suff)exist[i] = 1;
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            int AliceW = Pref[i];
+            int AliceC = (i + 1);
+            if (exist[AliceW]) {
+                int BobC = lower_bound(all(Suff), AliceW) - Suff.begin();
+                if (AliceC + BobC + 1 <= n)
+                    ans = max(ans, AliceC + BobC + 1);
+            }
+        }
+
+        cout << ans << endl;
+    };
+    T {
+        solve();
+    }
+}
