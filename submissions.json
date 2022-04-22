@@ -2217,6 +2217,24 @@
     ],
     "timestamp": "Apr/20/2022 21:57"
   },
+  "CF154448160": {
+    "contest_id": 639,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/639/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bear and Forgotten Tree 3",
+    "problem_url": "https://codeforces.com/contest/639/problem/B",
+    "submission_id": "CF154448160",
+    "submission_url": "https://codeforces.com/contest/639/submission/154448160",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Apr/22/2022 02:07"
+  },
   "CF154591208": {
     "contest_id": 1671,
     "language": "GNU C++20 (64)",
