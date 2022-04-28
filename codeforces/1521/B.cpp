@@ -10,14 +10,20 @@ signed main() {
         int n;
         cin >> n;
         vector<int> v(n);
-        for (auto &i: v)cin >> i;
+        for (auto &i: v)
+            cin >> i;
         int xo = 0;
         vector<tuple<int, int, int, int>> ans;
-        for (int i = 0; i < n - 1; i++,xo%=2) {
-            if (v[i] <= v[i + 1]) ans.emplace_back(i + 1, i + 2, v[i], v[i + 1] = po[xo++]);
-            else
-                ans.emplace_back(i + 1, i + 2, v[i] = po[xo++], v[i + 1]);
+        for (int i = 0; i < n - 1; i++) {
+            if (v[i] <= v[i + 1]) {
+                ans.emplace_back(i + 1, i + 2, v[i], v[i+1]=po[xo++]);
+                xo %= 2;
+            } else {
+                ans.emplace_back(i + 1, i + 2, v[i]=po[xo++], v[i + 1]);
+                xo %= 2;
+            }
         }
+        // for (auto i: v)cout << i << ' ';
         cout << ans.size() << endl;
         for (auto [a, b, c, d]: ans)
             cout << a << ' ' << b << ' ' << c << ' ' << d << endl;
