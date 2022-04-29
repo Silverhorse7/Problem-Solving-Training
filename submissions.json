@@ -2217,6 +2217,23 @@
     ],
     "timestamp": "Apr/20/2022 21:57"
   },
+  "CF155326864": {
+    "contest_id": 1352,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1352/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Same Parity Summands",
+    "problem_url": "https://codeforces.com/contest/1352/problem/B",
+    "submission_id": "CF155326864",
+    "submission_url": "https://codeforces.com/contest/1352/submission/155326864",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Apr/29/2022 22:53"
+  },
   "CF155328372": {
     "contest_id": 1257,
     "language": "GNU C++20 (64)",
