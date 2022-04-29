@@ -2217,6 +2217,22 @@
     ],
     "timestamp": "Apr/20/2022 21:57"
   },
+  "CF155323006": {
+    "contest_id": 629,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/629/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Far Relative\u2019s Problem",
+    "problem_url": "https://codeforces.com/contest/629/problem/B",
+    "submission_id": "CF155323006",
+    "submission_url": "https://codeforces.com/contest/629/submission/155323006",
+    "tags": [
+      "brute force",
+      "*1100"
+    ],
+    "timestamp": "Apr/29/2022 22:04"
+  },
   "CF155323332": {
     "contest_id": 1366,
     "language": "GNU C++20 (64)",
