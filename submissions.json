@@ -2217,6 +2217,23 @@
     ],
     "timestamp": "Apr/20/2022 21:57"
   },
+  "CF155322641": {
+    "contest_id": 789,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/789/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Anastasia and pebbles",
+    "problem_url": "https://codeforces.com/contest/789/problem/A",
+    "submission_id": "CF155322641",
+    "submission_url": "https://codeforces.com/contest/789/submission/155322641",
+    "tags": [
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Apr/29/2022 21:59"
+  },
   "CF155323006": {
     "contest_id": 629,
     "language": "GNU C++20 (64)",
