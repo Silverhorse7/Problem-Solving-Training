@@ -2217,6 +2217,25 @@
     ],
     "timestamp": "Apr/20/2022 21:57"
   },
+  "CF155297348": {
+    "contest_id": 1631,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1631/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Paint the Middle",
+    "problem_url": "https://codeforces.com/contest/1631/problem/E",
+    "submission_id": "CF155297348",
+    "submission_url": "https://codeforces.com/contest/1631/submission/155297348",
+    "tags": [
+      "greedy",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*2200"
+    ],
+    "timestamp": "Apr/29/2022 16:06"
+  },
   "CF155319709": {
     "contest_id": 1373,
     "language": "GNU C++20 (64)",
