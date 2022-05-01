@@ -1455,6 +1455,24 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF155538226": {
+    "contest_id": 1000,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1000/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "We Need More Bosses",
+    "problem_url": "https://codeforces.com/contest/1000/problem/E",
+    "submission_id": "CF155538226",
+    "submission_url": "https://codeforces.com/contest/1000/submission/155538226",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "May/01/2022 23:29"
+  },
   "CF155577862": {
     "contest_id": 474,
     "language": "GNU C++20 (64)",
