@@ -1455,6 +1455,26 @@
     ],
     "timestamp": "Apr/16/2022 14:30"
   },
+  "CF155689872": {
+    "contest_id": 1674,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1674/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Breaking the Wall",
+    "problem_url": "https://codeforces.com/contest/1674/problem/E",
+    "submission_id": "CF155689872",
+    "submission_url": "https://codeforces.com/contest/1674/submission/155689872",
+    "tags": [
+      "binary search",
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "May/02/2022 19:01"
+  },
   "CF155709943": {
     "contest_id": 276,
     "language": "GNU C++20 (64)",

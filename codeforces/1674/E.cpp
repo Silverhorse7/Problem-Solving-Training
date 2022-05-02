@@ -24,4 +24,4 @@ signed main() {
         scenario2(v[i - 1], v[i]);
     }
     cout << ans << endl;
-}//
+}
