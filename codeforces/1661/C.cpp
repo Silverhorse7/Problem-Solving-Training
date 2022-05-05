@@ -13,14 +13,18 @@ signed main() {
         vector<int> v(n);
         for (auto &i: v)cin >> i;
         mx = *max_element(v.begin(), v.end());
-        int res = 1e16;
+        int64_t res = 1e16;
         for (int height = mx; height <= mx + 100; ++height) {
-            int two = 0, one = 0;
+            int64_t due = 0, uno = 0;
             for (auto &x: v) {
-                two += (height - x) / 2;
-                one += (height - x) % 2;
+                due += (height - x) / 2;
+                uno += (height - x) % 2;
             }
-            res = min(res, max({one * 2 - 1, (one + two * 2) / 3 * 2 + (one + two * 2) % 3}));
+            int64_t all = uno + due * 2;
+            int64_t days = all / 3 * 2;
+            days += all % 3;
+            int64_t cnt_days = uno * 2;
+            res = min(res, max(cnt_days - 1, days));
         }
         cout << res << endl;
     }
