@@ -2103,6 +2103,22 @@
     ],
     "timestamp": "May/08/2022 02:43"
   },
+  "CF156302685": {
+    "contest_id": 1678,
+    "language": "GNU C++17",
+    "path": "codeforces/1678/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tokitsukaze and All Zero Sequence",
+    "problem_url": "https://codeforces.com/contest/1678/problem/A",
+    "submission_id": "CF156302685",
+    "submission_url": "https://codeforces.com/contest/1678/submission/156302685",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/08/2022 16:45"
+  },
   "CF156310441": {
     "contest_id": 1678,
     "language": "GNU C++17",
