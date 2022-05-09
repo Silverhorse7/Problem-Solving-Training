@@ -12,20 +12,21 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-89 | [D - A-B-C Sort](https://codeforces.com/contest/1674/problem/D) | [GNU C++20 (64)](./codeforces/1674/D.cpp) | `constructive algorithms` `implementation` `sortings` `*1200` | May/12/2022 23:25 | 
-88 | [H2 - Maximum Crossings (Hard Version)](https://codeforces.com/contest/1676/problem/H2) | [GNU C++17](./codeforces/1676/H2.cpp) | `data structures` `divide and conquer` `sortings` `*1500` | May/10/2022 20:39 | 
-87 | [G - White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | [GNU C++17](./codeforces/1676/G.cpp) | `dfs and similar` `dp` `graphs` `trees` `*1300` | May/10/2022 20:33 | 
-86 | [F - Longest Strike](https://codeforces.com/contest/1676/problem/F) | [GNU C++17](./codeforces/1676/F.cpp) | `data structures` `greedy` `implementation` `sortings` `two pointers` `*1300` | May/10/2022 18:28 | 
-85 | [H1 - Maximum Crossings (Easy Version)](https://codeforces.com/contest/1676/problem/H1) | [GNU C++17](./codeforces/1676/H1.cpp) | `brute force` `*1400` | May/10/2022 18:18 | 
-84 | [E - Eating Queries](https://codeforces.com/contest/1676/problem/E) | [GNU C++17](./codeforces/1676/E.cpp) | `binary search` `greedy` `sortings` `*1100` | May/10/2022 17:12 | 
-83 | [D - X-Sum](https://codeforces.com/contest/1676/problem/D) | [GNU C++17](./codeforces/1676/D.cpp) | `brute force` `greedy` `implementation` `*1000` | May/10/2022 17:02 | 
-82 | [B - Equal Candies](https://codeforces.com/contest/1676/problem/B) | [GNU C++17](./codeforces/1676/B.cpp) | `greedy` `math` `sortings` `*800` | May/10/2022 16:53 | 
-81 | [C - Most Similar Words](https://codeforces.com/contest/1676/problem/C) | [GNU C++17](./codeforces/1676/C.cpp) | `brute force` `greedy` `implementation` `implementation` `math` `strings` `*800` | May/10/2022 16:53 | 
-80 | [A - Lucky?](https://codeforces.com/contest/1676/problem/A) | [GNU C++17](./codeforces/1676/A.cpp) | `implementation` `*800` | May/10/2022 16:46 | 
-79 | [B - AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | [GNU C++17](./codeforces/1514/B.cpp) | `bitmasks` `combinatorics` `math` `*1200` | May/10/2022 08:15 | 
-78 | [B - Easter Eggs](https://codeforces.com/contest/78/problem/B) | [GNU C++17](./codeforces/78/B.cpp) | `constructive algorithms` `implementation` `*1200` | May/10/2022 08:12 | 
-77 | [A - Hilbert's Hotel](https://codeforces.com/contest/1344/problem/A) | [GNU C++17](./codeforces/1344/A.cpp) | `math` `number theory` `sortings` `*1600` | May/10/2022 03:36 | 
-76 | [G - Special Permutation](https://codeforces.com/contest/1352/problem/G) | [GNU C++17](./codeforces/1352/G.cpp) | `constructive algorithms` `*1600` | May/10/2022 02:27 | 
+90 | [D - A-B-C Sort](https://codeforces.com/contest/1674/problem/D) | [GNU C++20 (64)](./codeforces/1674/D.cpp) | `constructive algorithms` `implementation` `sortings` `*1200` | May/12/2022 23:25 | 
+89 | [H2 - Maximum Crossings (Hard Version)](https://codeforces.com/contest/1676/problem/H2) | [GNU C++17](./codeforces/1676/H2.cpp) | `data structures` `divide and conquer` `sortings` `*1500` | May/10/2022 20:39 | 
+88 | [G - White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | [GNU C++17](./codeforces/1676/G.cpp) | `dfs and similar` `dp` `graphs` `trees` `*1300` | May/10/2022 20:33 | 
+87 | [F - Longest Strike](https://codeforces.com/contest/1676/problem/F) | [GNU C++17](./codeforces/1676/F.cpp) | `data structures` `greedy` `implementation` `sortings` `two pointers` `*1300` | May/10/2022 18:28 | 
+86 | [H1 - Maximum Crossings (Easy Version)](https://codeforces.com/contest/1676/problem/H1) | [GNU C++17](./codeforces/1676/H1.cpp) | `brute force` `*1400` | May/10/2022 18:18 | 
+85 | [E - Eating Queries](https://codeforces.com/contest/1676/problem/E) | [GNU C++17](./codeforces/1676/E.cpp) | `binary search` `greedy` `sortings` `*1100` | May/10/2022 17:12 | 
+84 | [D - X-Sum](https://codeforces.com/contest/1676/problem/D) | [GNU C++17](./codeforces/1676/D.cpp) | `brute force` `greedy` `implementation` `*1000` | May/10/2022 17:02 | 
+83 | [B - Equal Candies](https://codeforces.com/contest/1676/problem/B) | [GNU C++17](./codeforces/1676/B.cpp) | `greedy` `math` `sortings` `*800` | May/10/2022 16:53 | 
+82 | [C - Most Similar Words](https://codeforces.com/contest/1676/problem/C) | [GNU C++17](./codeforces/1676/C.cpp) | `brute force` `greedy` `implementation` `implementation` `math` `strings` `*800` | May/10/2022 16:53 | 
+81 | [A - Lucky?](https://codeforces.com/contest/1676/problem/A) | [GNU C++17](./codeforces/1676/A.cpp) | `implementation` `*800` | May/10/2022 16:46 | 
+80 | [B - AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | [GNU C++17](./codeforces/1514/B.cpp) | `bitmasks` `combinatorics` `math` `*1200` | May/10/2022 08:15 | 
+79 | [B - Easter Eggs](https://codeforces.com/contest/78/problem/B) | [GNU C++17](./codeforces/78/B.cpp) | `constructive algorithms` `implementation` `*1200` | May/10/2022 08:12 | 
+78 | [A - Hilbert's Hotel](https://codeforces.com/contest/1344/problem/A) | [GNU C++17](./codeforces/1344/A.cpp) | `math` `number theory` `sortings` `*1600` | May/10/2022 03:36 | 
+77 | [G - Special Permutation](https://codeforces.com/contest/1352/problem/G) | [GNU C++17](./codeforces/1352/G.cpp) | `constructive algorithms` `*1600` | May/10/2022 02:27 | 
+76 | [D - Constructing the Array](https://codeforces.com/contest/1353/problem/D) | [GNU C++17](./codeforces/1353/D.cpp) | `constructive algorithms` `data structures` `sortings` `*1600` | May/10/2022 01:54 | 
 75 | [D - Range Count Query](https://atcoder.jp/contests/abc248/tasks/abc248_d) | [C++ (GCC 9.2.1)](./atcoder/abc248/D.cpp) | `AtCoder` `*400` | Apr/16/2022 14:30 | 
 74 | [C - Dice Sum](https://atcoder.jp/contests/abc248/tasks/abc248_c) | [C++ (GCC 9.2.1)](./atcoder/abc248/C.cpp) | `AtCoder` `*300` | Apr/16/2022 14:19 | 
 73 | [B - Slimes](https://atcoder.jp/contests/abc248/tasks/abc248_b) | [C++ (GCC 9.2.1)](./atcoder/abc248/B.cpp) | `AtCoder` `*200` | Apr/16/2022 14:13 | 
