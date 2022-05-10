@@ -17,9 +17,23 @@ signed main() {
 		}
 		string ans;
 		int cnt = 0;
+		queue<int> Q;
+		Q.push(root);
+		map<int, vector<int>, greater<>> Depths;
+		vector<int> d(n + 33);
+		d[root] = 1;
+		while (!Q.empty()) {
+			auto f = Q.front();
+			Q.pop();
+			for (auto i: adj[f]) {
+				if (d[i] == 0 and i != root)
+					d[i] = d[f] + 1, Q.push(i);
+			}
+		}
 		cin >> ans;
 		vector<long long> cost(n + 33);
 		int ansss = 0;
+		//cout << ans.size() << endl;
 		function<void(int, int)> dfs = [&](int cur, int par) {
 			cost[cur] = (ans[cur - 1] == 'W' ? 1 : -1);
 			for (auto i: adj[cur])
