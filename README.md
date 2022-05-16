@@ -5,7 +5,7 @@ Submissions
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
 * Codeforces &nbsp; (https://codeforces.com/profile/yosef.mahmoud7)
-* Atcoder &nbsp; (https://atcoder.jp/users/Silverhorse7)
+* Atcoder    &nbsp; (https://atcoder.jp/users/Silverhorse7)
 
 ## Contents
 
