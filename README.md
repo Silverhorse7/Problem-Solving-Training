@@ -4,7 +4,7 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/yosef.mahmoud7.svg)](https://codeforces.com/profile/yosef.mahmoud7)
+* Codeforces &nbsp; (https://codeforces.com/profile/yosef.mahmoud7)
 
 
 ## Contents
